@@ -19,7 +19,7 @@ const Videos = () => {
   ];
 
   useEffect(() => {
-    const apiKey = "AIzaSyCEAv-Kxga5klbXl4zfh9EZfYph-U2LvBs";
+    const apiKey = import.meta.env.VITE_API_KEY;
     const channelId = "UC2HX4jo0FVDwxcC4R-FO-Nw";
 
     const fetchSubscriberCount = async () => {
