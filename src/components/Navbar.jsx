@@ -154,18 +154,8 @@ const Navbar = () => {
               Explore
             </ScrollLink>
           </li>
-          <li className="hover:text-[#F4DF9C] px-4 py-2">
-            <ScrollLink
-              to="services"
-              smooth={true}
-              duration={500}
-              offset={-70}
-              onClick={closeMenu}
-            >
-              Services
-            </ScrollLink>
-          </li>
-          <li className="hover:text-[#F4DF9C] px-4 py-2">
+          
+          {/* <li className="hover:text-[#F4DF9C] px-4 py-2">
             <ScrollLink
               to="contact"
               smooth={true}
@@ -175,7 +165,7 @@ const Navbar = () => {
             >
               Contact Us
             </ScrollLink>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>
