@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div id="footer" className="bg-[#082547] py-8 text-center mt-16">
       <div className="container mx-auto px-4 sm:px-8 lg:px-16">
-        <ul className="flex justify-center gap-6 sm:gap-16 cursor-pointer text-white md:flex-row flex-col">
+        <ul className="flex justify-center gap-6 sm:gap-16 cursor-pointer text-white md:flex-row ">
           <li className="hover:text-[#F4DF9C] rounded-md px-2 sm:px-4 py-2 transition-colors duration-300">
             <ScrollLink
               to="home"
@@ -48,7 +48,7 @@ const Footer = () => {
               Videos
             </ScrollLink>
           </li>
-          <li className="hover:text-[#F4DF9C] rounded-md px-2 sm:px-4 py-2 transition-colors duration-300">
+          {/* <li className="hover:text-[#F4DF9C] rounded-md px-2 sm:px-4 py-2 transition-colors duration-300">
             <ScrollLink
               to="services"
               smooth={true}
@@ -59,24 +59,24 @@ const Footer = () => {
             >
               Services
             </ScrollLink>
-          </li>
+          </li> */}
         </ul>
       </div>
 
       <div className="flex justify-center   mt-4 text-white text-center">
-        <a href="https://facebook.com" target="_blank" rel="noreferrer">
+        <a href="https://www.facebook.com/share/5MXaZfeDLJiUbf3V/?mibextid=qi2Omg" target="_blank" rel="noreferrer">
           <FontAwesomeIcon
             icon={faFacebook}
             className="h-6 w-6  sm:ml-6 hover:text-[#F4DF9C] cursor-pointer"
           />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/theislamicvibe0786?utm_source=qr&igsh=enNuNDFvY3VwY3Bp" target="_blank" rel="noreferrer">
           <FontAwesomeIcon
             icon={faInstagram}
             className="h-6 w-6 ml-24 sm:ml-6 hover:text-[#F4DF9C] cursor-pointer"
           />
         </a>
-        <a href="https://youtube.com" target="_blank" rel="noreferrer">
+        <a href="https://www.youtube.com/@theislamicvibe0786" target="_blank" rel="noreferrer">
           <FontAwesomeIcon
             icon={faYoutube}
             className="h-6 w-6 ml-24 sm:ml-6 hover:text-[#F4DF9C] cursor-pointer"
@@ -85,7 +85,7 @@ const Footer = () => {
       </div>
 
       <div className="text-white mt-4">
-        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+        <p>&copy; 2024 The Islamic Vibe. All Rights Reserved.</p>
       </div>
     </div>
   );

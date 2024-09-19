@@ -1,21 +1,25 @@
 import React, { useEffect, useState } from "react";
-import CountUp from "react-countup"; // Import the CountUp component
+import CountUp from "react-countup"; 
 
 const Videos = () => {
   const [subscriberCount, setSubscriberCount] = useState(null);
   const youtubeVideos = [
     {
       id: "43Ee7fjBZms",
-      title: "Azmat Raza Bhagalpuri New Naat",
+      title: "Azmat Raza Bhagalpuri ",
     },
     {
       id: "Y-Qqy7LY2vk",
-      title: "Mohammad Ali Faizi Viral Naat",
+      title: "Mohammad Ali Faizi ",
     },
     {
       id: "tdkhH4qgkkE",
       title: "Muharram-24",
     },
+    // {
+    //   id: "k9u-vgtfHMo",
+    //   title:"Akhtar Kashif",
+    // },
   ];
 
   useEffect(() => {
@@ -61,7 +65,7 @@ const Videos = () => {
 
       <div className="mt-8">
         <a
-          href="https://www.youtube.com/channel/YOUR_CHANNEL_ID"
+          href="https://www.youtube.com/channel/UC2HX4jo0FVDwxcC4R-FO-Nw"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-red-600 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-red-700 transition"
@@ -72,7 +76,7 @@ const Videos = () => {
 
       {subscriberCount && (
         <div className="mt-4 text-xl font-medium">
-          {/* Display counting animation with "+" */}
+          
           <p>
             Subscribers:{" "}
             <CountUp end={parseInt(subscriberCount)} duration={2} />+

@@ -60,9 +60,9 @@ const Navbar = () => {
             offset={-70}
             className="hover:text-[#F4DF9C] cursor-pointer"
           >
-            Videos
+            Explore
           </ScrollLink>
-          <ScrollLink
+          {/* <ScrollLink
             to="services"
             smooth={true}
             duration={500}
@@ -70,7 +70,7 @@ const Navbar = () => {
             className="hover:text-[#F4DF9C] cursor-pointer"
           >
             Services
-          </ScrollLink>
+          </ScrollLink> */}
         </div>
 
         {/* Right Side */}
@@ -105,9 +105,7 @@ const Navbar = () => {
                   strokeLinejoin="round"
                   strokeWidth="2"
                   d={
-                    isOpen
-                      ? "M6 18L18 6M6 6l12 12"
-                      : "M4 6h16M4 12h16M4 18h16"
+                    isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
                   }
                 ></path>
               </svg>
@@ -153,7 +151,7 @@ const Navbar = () => {
               offset={-70}
               onClick={closeMenu}
             >
-              Videos
+              Explore
             </ScrollLink>
           </li>
           <li className="hover:text-[#F4DF9C] px-4 py-2">
